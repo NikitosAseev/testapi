@@ -1,0 +1,14 @@
+<html>
+<body>
+    <script src="https://js.puter.com/v2/"></script>
+    <script>
+        const responses = []
+        const token = '{{token}}';
+        const message = '{{message}}';
+
+        puter.ai.chat(message).then((response) => {
+            responses.push(response.message)
+        ;})
+    </script>
+</body>
+</html>

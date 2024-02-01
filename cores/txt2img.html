@@ -1,0 +1,13 @@
+<html>
+<body>
+    <script src="https://js.puter.com/v2/"></script>
+    <script>
+        const token = '{{token}}';
+        const message = '{{message}}';
+
+        puter.ai.txt2img(message, false).then((image) => {
+            document.body.appendChild(image);
+        });
+    </script>
+</body>
+</html>

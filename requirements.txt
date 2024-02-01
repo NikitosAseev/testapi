@@ -1,0 +1,9 @@
+python>=3.8.1,<4.0
+fastapi==0.68.0
+requests==2.26.0
+common==0.1.2
+upgraded-engineer==0.2.1
+uvicorn==0.23.2
+python-dotenv==1.0.0
+middleware==1.2.3
+langchain==0.0.308
